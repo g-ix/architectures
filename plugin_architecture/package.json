@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/g-ix/architectures/issues"
   },
-  "homepage": "https://github.com/g-ix/architectures#readme"
+  "homepage": "https://github.com/g-ix/architectures#readme",
+  "devDependencies": {
+    "@types/react": "^19.2.14"
+  }
 }
