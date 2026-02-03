@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./root",
+    "paths": {
+      "@/*": ["./apps/web/*"],
+      "@plugins/*": ["./plugins/*"],
+    },
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx",
+  }
+}
