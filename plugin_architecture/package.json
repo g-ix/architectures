@@ -21,5 +21,8 @@
   "homepage": "https://github.com/g-ix/architectures#readme",
   "devDependencies": {
     "@types/react": "^19.2.14"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
